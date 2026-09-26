@@ -1,0 +1,1 @@
+var e={production:!0};var o=()=>{},n=!e.production,s={debug:n?console.debug.bind(console):o,info:n?console.log.bind(console):o,warn:n?console.warn.bind(console):o,error:console.error.bind(console)};export{s as a};

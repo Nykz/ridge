@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-beasties-container="">
+
+<head><meta http-equiv="Content-Security-Policy" content="script-src 'strict-dynamic' 'sha256-ErSGQ5RkfdaGFyDT7yi/vnakQoxNloHzsJR8SRc4ISE=' 'sha256-jAtdEoFYkE9KC947zwFoBiuwqe+j+3ZP4s9n5nRM5Y8=' https: 'unsafe-inline';object-src 'none';base-uri 'self';">
+  <meta charset="utf-8">
+  <title>Ridge</title>
+
+  <base href="/ridge/">
+
+  <meta name="color-scheme" content="light dark">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss: ws: data: blob:; media-src 'self' data: blob: https:; frame-src 'self' https:;">
+  <meta name="theme-color" content="#111418">
+  <meta name="description" content="A calm study-accountability planner for competitive-exam aspirants.">
+
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icon/logo-256.png">
+
+  <!-- add to homescreen for ios -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<style>@font-face{font-family:Inter;font-style:normal;font-display:swap;font-weight:300;src:url("./media/inter-latin-300-normal-CX5WADKC.woff2") format("woff2"),url("./media/inter-latin-300-normal-N6K7LEAV.woff") format("woff")}@font-face{font-family:Inter;font-style:normal;font-display:swap;font-weight:400;src:url("./media/inter-latin-400-normal-55WT6UWF.woff2") format("woff2"),url("./media/inter-latin-400-normal-FR5HOXA4.woff") format("woff")}@font-face{font-family:Inter;font-style:normal;font-display:swap;font-weight:500;src:url("./media/inter-latin-500-normal-W62DVTXI.woff2") format("woff2"),url("./media/inter-latin-500-normal-ZNGIZ2YB.woff") format("woff")}@font-face{font-family:Inter;font-style:normal;font-display:swap;font-weight:600;src:url("./media/inter-latin-600-normal-R6Y2SZCR.woff2") format("woff2"),url("./media/inter-latin-600-normal-ZYHV6QZT.woff") format("woff")}@font-face{font-family:Inter;font-style:normal;font-display:swap;font-weight:700;src:url("./media/inter-latin-700-normal-SU5XVJMF.woff2") format("woff2"),url("./media/inter-latin-700-normal-TQQ5JXGD.woff") format("woff")}@font-face{font-family:Outfit;font-style:normal;font-display:swap;font-weight:600;src:url("./media/outfit-latin-600-normal-7I4OGWZG.woff2") format("woff2"),url("./media/outfit-latin-600-normal-SAVBCENJ.woff") format("woff")}@font-face{font-family:Outfit;font-style:normal;font-display:swap;font-weight:700;src:url("./media/outfit-latin-700-normal-YRDFZK2V.woff2") format("woff2"),url("./media/outfit-latin-700-normal-UE4J7WLR.woff") format("woff")}:root{--ion-color-primary:#0054e9;--ion-color-primary-rgb:0, 84, 233;--ion-color-primary-contrast:#fff;--ion-color-primary-contrast-rgb:255, 255, 255;--ion-color-primary-shade:#004acd;--ion-color-primary-tint:#1a65eb;--ion-color-secondary:#0163aa;--ion-color-secondary-rgb:1, 99, 170;--ion-color-secondary-contrast:#fff;--ion-color-secondary-contrast-rgb:255, 255, 255;--ion-color-secondary-shade:#015796;--ion-color-secondary-tint:#1a73b3;--ion-color-tertiary:#6030ff;--ion-color-tertiary-rgb:96, 48, 255;--ion-color-tertiary-contrast:#fff;--ion-color-tertiary-contrast-rgb:255, 255, 255;--ion-color-tertiary-shade:#542ae0;--ion-color-tertiary-tint:#7045ff;--ion-color-success:#2dd55b;--ion-color-success-rgb:45, 213, 91;--ion-color-success-contrast:#000;--ion-color-success-contrast-rgb:0, 0, 0;--ion-color-success-shade:#28bb50;--ion-color-success-tint:#42d96b;--ion-color-warning:#ffc409;--ion-color-warning-rgb:255, 196, 9;--ion-color-warning-contrast:#000;--ion-color-warning-contrast-rgb:0, 0, 0;--ion-color-warning-shade:#e0ac08;--ion-color-warning-tint:#ffca22;--ion-color-danger:#c5000f;--ion-color-danger-rgb:197, 0, 15;--ion-color-danger-contrast:#fff;--ion-color-danger-contrast-rgb:255, 255, 255;--ion-color-danger-shade:#ad000d;--ion-color-danger-tint:#cb1a27;--ion-color-light:#f4f5f8;--ion-color-light-rgb:244, 245, 248;--ion-color-light-contrast:#000;--ion-color-light-contrast-rgb:0, 0, 0;--ion-color-light-shade:#d7d8da;--ion-color-light-tint:#f5f6f9;--ion-color-medium:#636469;--ion-color-medium-rgb:99, 100, 105;--ion-color-medium-contrast:#fff;--ion-color-medium-contrast-rgb:255, 255, 255;--ion-color-medium-shade:#57585c;--ion-color-medium-tint:#737478;--ion-color-dark:#222428;--ion-color-dark-rgb:34, 36, 40;--ion-color-dark-contrast:#fff;--ion-color-dark-contrast-rgb:255, 255, 255;--ion-color-dark-shade:#1e2023;--ion-color-dark-tint:#383a3e}html{--ion-dynamic-font:-apple-system-body;--ion-font-family:var(--ion-default-font)}body{background:var(--ion-background-color);color:var(--ion-text-color)}@supports (padding-top: 20px){html{--ion-safe-area-top:var(--ion-statusbar-padding)}}@supports (padding-top: env(safe-area-inset-top)){html{--ion-safe-area-top:var(--safe-area-inset-top, env(safe-area-inset-top));--ion-safe-area-bottom:var(--safe-area-inset-bottom, env(safe-area-inset-bottom));--ion-safe-area-left:var(--safe-area-inset-left, env(safe-area-inset-left));--ion-safe-area-right:var(--safe-area-inset-right, env(safe-area-inset-right))}}*{box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}html{width:100%;height:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;margin:0;padding:0;position:fixed;width:100%;max-width:100%;height:100%;max-height:100%;transform:translateZ(0);text-rendering:optimizeLegibility;overflow:hidden;touch-action:manipulation;-webkit-user-drag:none;-ms-content-zooming:none;word-wrap:break-word;overscroll-behavior-y:none;-webkit-text-size-adjust:none;text-size-adjust:none}html{font-family:var(--ion-font-family)}@supports (-webkit-touch-callout: none){html{font:var(--ion-dynamic-font, 16px var(--ion-font-family))}}body{background-color:var(--app-background);color:var(--app-on-surface);font-family:var(--ion-font-family)!important;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}html,body{touch-action:manipulation!important;-webkit-tap-highlight-color:transparent!important;-webkit-overflow-scrolling:touch!important;-webkit-touch-callout:default!important}body{scrollbar-color:var(--color-scrollbar-thumb) var(--color-scrollbar-track)}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}:root{--app-background:#fbf8ff;--app-surface:#ffffff;--app-surface-container:#eeedf9;--app-surface-container-low:#f3f2fe;--app-surface-container-high:#e8e7f3;--app-surface-container-lowest:#ffffff;--app-surface-container-highest:#e2e1ed;--app-primary:#264dd9;--app-on-primary:#ffffff;--app-primary-bright:#4568f3;--app-primary-container:#dde1ff;--app-primary-fixed:#dde1ff;--app-secondary:#006c49;--app-secondary-bright:#4edea3;--app-secondary-fixed:#6ffbbe;--app-accent:#825100;--app-on-surface:#1a1b23;--app-on-surface-variant:#444655;--app-outline:#747686;--app-outline-variant:#c4c5d7;--app-success:#006c49;--app-error:#ba1a1a;--app-card-background:rgba(238, 237, 249, .55);--app-card-border:rgba(0, 0, 0, .05);--app-card-shadow:rgba(15, 23, 42, .05);--app-pill-bg:rgba(38, 77, 217, .06);--app-pill-border:rgba(38, 77, 217, .12);--color-scrollbar-track:#f3f2fe;--color-scrollbar-thumb:#c4c5d7;--app-dialer-inner-bg:url(#heroInnerGradLight);--app-dialer-inner-stroke:rgba(38, 77, 217, .2);--app-onboarding-bg:url(/assets/onboarding-bg-light.webp);--ion-background-color:var(--app-background);--ion-text-color:var(--app-on-surface);--ion-color-primary:var(--app-primary);--ion-color-primary-rgb:38, 77, 217;--ion-color-primary-contrast:#ffffff;--ion-color-primary-contrast-rgb:255, 255, 255;--ion-color-primary-shade:#2143c2;--ion-color-primary-tint:#3c5fdd;--ion-font-family:"Inter", sans-serif;--app-font-display:"Outfit", sans-serif;--app-btn-primary-bg:var(--app-primary);--app-btn-primary-color:#ffffff;--app-btn-primary-shadow:rgba(38, 77, 217, .25);--app-btn-primary-hover-bg:var(--app-primary-bright);--app-btn-secondary-bg:rgba(38, 77, 217, .08);--app-btn-secondary-color:#264dd9;--app-btn-secondary-border:1.5px solid rgba(38, 77, 217, .28);--app-btn-secondary-hover-bg:rgba(38, 77, 217, .15);--app-btn-gradient:linear-gradient(135deg, var(--app-primary) 0%, var(--app-primary-bright) 100%);--app-btn-gradient-hover:linear-gradient(135deg, var(--app-primary-bright) 0%, var(--app-primary) 100%);--subject-physics:#0ea5e9;--subject-chemistry:#9333ea;--subject-maths:#d97706;--subject-biology:#059669;--subject-english:#4f46e5}</style><script>
+(() => {
+  const CSP_MEDIA_ATTR = 'ngCspMedia';
+  const documentElement = document.documentElement;
+
+  // Listener for load events on link tags.
+  const listener = (e) => {
+    const target = e.target;
+    if (
+      !target ||
+      target.tagName !== 'LINK' ||
+      !target.hasAttribute(CSP_MEDIA_ATTR)
+    ) {
+      return;
+    }
+
+    target.media = target.getAttribute(CSP_MEDIA_ATTR);
+    target.removeAttribute(CSP_MEDIA_ATTR);
+
+    if (!document.head.querySelector(`link[${CSP_MEDIA_ATTR}]`)) {
+      documentElement.removeEventListener('load', listener);
+    }
+  };
+
+  documentElement.addEventListener('load', listener, true);
+})();</script><link rel="stylesheet" href="styles-WEPYQ5IK.css" media="print" ngcspmedia="all"><noscript><link rel="stylesheet" href="styles-WEPYQ5IK.css"></noscript></head>
+
+<body>
+  <app-root></app-root>
+<link rel="modulepreload" href="chunk-DXWBLOU7.js"><link rel="modulepreload" href="chunk-MNCYWXDI.js"><link rel="modulepreload" href="chunk-HN5A3KM4.js"><link rel="modulepreload" href="chunk-WOFB3VYF.js"><link rel="modulepreload" href="chunk-NN5INC77.js"><link rel="modulepreload" href="chunk-WENTDXBA.js"><link rel="modulepreload" href="chunk-GLOBYOAR.js"><link rel="modulepreload" href="chunk-BSYQ3B5O.js"><link rel="modulepreload" href="chunk-JVJG4RXH.js"><link rel="modulepreload" href="chunk-ZF5I4ZUQ.js"><script>
+  var scripts = [['main-BCXO2M66.js', 'module', false, false]];
+  scripts.forEach(function(scriptUrl) {
+    var s = document.createElement('script');
+    s.src = scriptUrl[0];
+    s.type = scriptUrl[1];
+    s.async = !!scriptUrl[2];
+    s.defer = !!scriptUrl[3];
+    document.lastElementChild.appendChild(s);
+  });
+</script></body>
+
+</html>

@@ -1,0 +1,1 @@
+import{c as o}from"./chunk-CIHM7STN.js";import"./chunk-7CGTOI24.js";var n=class extends o{async open(){return new Promise((r,e)=>{e(new Error("Not implemented for web."))})}async openAndroid(){return new Promise((r,e)=>{e(new Error("Not implemented for web."))})}async openIOS(){return new Promise((r,e)=>{e(new Error("Not implemented for web."))})}};export{n as NativeSettingsWeb};
